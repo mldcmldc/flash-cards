@@ -9,7 +9,7 @@ export default function Topics() {
       <p className="mb-5 text-xl">Lessons ({source.length})</p>
       {source.map((lesson) => (
         <Link
-          className="border border-black px-4 py-2"
+          className="border border-black px-4 py-2 mb-2"
           key={lesson.topic}
           href={`topics/${lesson.link}`}
         >
