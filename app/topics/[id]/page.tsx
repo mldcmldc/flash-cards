@@ -46,25 +46,25 @@ export default function SingleTopicPage({
 
   const component = isTextView ? (
     <div
-      className="flex flex-col justify-center items-center min-h-screen h-full mt-32 mx-20
+      className="flex flex-col justify-center items-center min-h-screen h-full mt-28 mx-20
       text-left w-full"
     >
+      <button
+        className="text-lg p-2 border border-black fixed top-5 right-5 bg-white"
+        onClick={() => setIsTextView((prevState) => !prevState)}
+      >
+        Card View
+      </button>
+
       {answerKeys.map((answerKey, index) => (
         <button
-          className="w-full px-10"
+          className="w-10/12 px-10 py-2 border border-black mb-2"
           key={answerKey.answer}
           onClick={() => navigateJumpToIndex(index)}
         >
           {index + 1}. {answerKey.question}
         </button>
       ))}
-
-      <button
-        className="text-lg px-5 py-2 border border-black"
-        onClick={() => setIsTextView((prevState) => !prevState)}
-      >
-        Text View
-      </button>
     </div>
   ) : (
     <div className="flex flex-col justify-center items-center min-h-screen h-full">
@@ -76,7 +76,7 @@ export default function SingleTopicPage({
         toggleDisplay={toggleDisplay}
         {...answerKeys[currentAnswerKeyIndex]}
       />
-      <div className="mt-8 space-x-5">
+      <div className="mt-8 space-x-3">
         {currentAnswerKeyIndex != 0 ? (
           <button
             className="text-lg px-5 py-2 border border-black"

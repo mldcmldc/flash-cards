@@ -20,7 +20,7 @@ export default function FlashCard(props: FlashCardType) {
   } = props;
 
   return (
-    <div className="border border-black p-5 rounded-xl flex flex-col w-full sm:w-[550px] min-h-[400px] h-full items-center justify-center">
+    <div className="border border-black p-5 rounded-xl flex flex-col w-11/12 sm:w-[550px] min-h-[400px] h-full items-center justify-center">
       <small className="text-sm w-full text-left font-bold">
         {number}/{numberOfQuestions}
       </small>
@@ -37,7 +37,7 @@ export default function FlashCard(props: FlashCardType) {
         className="text-lg px-5 py-2 border border-black rounded-xl mt-auto"
         onClick={toggleDisplay}
       >
-        { isAnswerDisplayed ? "Hide Answer" : "See Answer" }
+        {isAnswerDisplayed ? "Hide Answer" : "See Answer"}
       </button>
     </div>
   );
