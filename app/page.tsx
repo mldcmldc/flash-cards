@@ -7,7 +7,7 @@ import { source } from "./definitions/answer-keys";
 export default function Home() {
   const [currentAnswerKeyIndex, setCurrentAnswerKeyIndex] = useState(0);
 
-  const { topic, answerKeys } = source[currentAnswerKeyIndex];
+  const { answerKeys, topic } = source[0];
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center text-4xl">
