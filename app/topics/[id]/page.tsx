@@ -10,11 +10,17 @@ export default function SingleTopicPage({
 }) {
   const [currentAnswerKeyIndex, setCurrentAnswerKeyIndex] = useState(0);
   const [isAnswerDisplayed, setIsAnswerDisplayed] = useState(false);
+  const [isTextView, setIsTextView] = useState(false);
 
   const { id } = params;
   const currentSource = source.find((lesson) => lesson.link == id);
 
-  if (!currentSource) return <div className="flex items-center justify-center">Page does not exist</div>;
+  if (!currentSource)
+    return (
+      <div className="flex items-center justify-center">
+        Page does not exist
+      </div>
+    );
 
   const { answerKeys = [], topic = "" } = currentSource;
 
@@ -33,7 +39,34 @@ export default function SingleTopicPage({
     setIsAnswerDisplayed(false);
   }
 
-  return (
+  function navigateJumpToIndex(index) {
+    setCurrentAnswerKeyIndex(index);
+    setIsTextView(false);
+  }
+
+  const component = isTextView ? (
+    <div
+      className="flex flex-col justify-center items-center min-h-screen h-full mt-32 mx-20
+      text-left w-full"
+    >
+      {answerKeys.map((answerKey, index) => (
+        <button
+          className="w-full px-10"
+          key={answerKey.answer}
+          onClick={() => navigateJumpToIndex(index)}
+        >
+          {index + 1}. {answerKey.question}
+        </button>
+      ))}
+
+      <button
+        className="text-lg px-5 py-2 border border-black"
+        onClick={() => setIsTextView((prevState) => !prevState)}
+      >
+        Text View
+      </button>
+    </div>
+  ) : (
     <div className="flex flex-col justify-center items-center min-h-screen h-full">
       <p className="mb-5 text-2xl">{topic}</p>
       <FlashCard
@@ -61,7 +94,20 @@ export default function SingleTopicPage({
             Next
           </button>
         ) : null}
+
+        <button
+          className="text-lg px-5 py-2 border border-black"
+          onClick={() => setIsTextView((prevState) => !prevState)}
+        >
+          Text View
+        </button>
       </div>
+    </div>
+  );
+
+  return (
+    <div className="flex flex-col justify-center items-center min-h-screen h-full">
+      {component}
     </div>
   );
 }
