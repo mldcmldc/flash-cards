@@ -39,7 +39,7 @@ export default function SingleTopicPage({
     setIsAnswerDisplayed(false);
   }
 
-  function navigateJumpToIndex(index) {
+  function navigateJumpToIndex(index: number) {
     setCurrentAnswerKeyIndex(index);
     setIsTextView(false);
   }
