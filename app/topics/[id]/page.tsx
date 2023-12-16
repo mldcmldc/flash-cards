@@ -3,14 +3,20 @@ import FlashCard from "@/app/components/flash-card";
 import { source } from "@/app/definitions/answer-keys";
 import { useState } from "react";
 
-export default function SingleTopicPage({ params }) {
-  const { id } = params;
-  const currentSource = source.find((lesson) => lesson.link == id);
-
+export default function SingleTopicPage({
+  params,
+}: {
+  params: { id: string };
+}) {
   const [currentAnswerKeyIndex, setCurrentAnswerKeyIndex] = useState(0);
   const [isAnswerDisplayed, setIsAnswerDisplayed] = useState(false);
 
-  const { answerKeys, topic } = currentSource;
+  const { id } = params;
+  const currentSource = source.find((lesson) => lesson.link == id);
+
+  if (!currentSource) return <div className="flex items-center justify-center">Page does not exist</div>;
+
+  const { answerKeys = [], topic = "" } = currentSource;
 
   function toggleDisplay() {
     setIsAnswerDisplayed((prevState) => !prevState);

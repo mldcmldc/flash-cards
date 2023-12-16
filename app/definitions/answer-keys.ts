@@ -1,4 +1,15 @@
-export const source = [
+type AnswerKeyType = {
+  question: string;
+  answer: string;
+};
+
+type SourceType = {
+  topic: string;
+  link: string;
+  answerKeys: AnswerKeyType[];
+};
+
+export const source: SourceType[] = [
   {
     topic: "International Relations",
     link: "international-relations",
@@ -328,54 +339,66 @@ export const source = [
         answer:
           "In the Nicaragua vs United States case, the ICJ found the US 'in breach of its obligations under customary international law not to use force against another State,' 'not to intervene in its affairs,' 'not to violate its sovereignty,' 'not to interrupt peaceful maritime commerce,' and 'in breach of its obligations under Article XIX of the Treaty of Friendship, Commerce, and Navigation.'",
       },
-{
-    "question": "What are the options for enforcement?",
-    "answer": "Options for enforcement include sanctions, retortion, and reprisal."
-  },
-  {
-    "question": "How many UNSC resolutions have been issued?",
-    "answer": "There have been 2,600 UNSC resolutions."
-  },
-  {
-    "question": "How many UNSC resolutions specifically target North Korea?",
-    "answer": "There are 9 UNSC resolutions specifically targeting North Korea."
-  },
-  {
-    "question": "What are some countries subjected to UN sanctions?",
-    "answer": "Countries subjected to UN sanctions include North Korea, Iran, Mali, South Sudan, Central African Republic, Yemen, Guinea-Bissau, Libya, etc."
-  },
-  {
-    "question": "What did Prof. Thomas Biersteker's 2013 study on UN sanctions conclude?",
-    "answer": "Prof. Thomas Biersteker's 2013 study on UN sanctions reviewed 62 sanctions over 22 years and concluded that 71% were effective or partially effective in signaling, 50% in constraining, and 37% in coercing a target."
-  },
-  {
-    "question": "What are some success stories of sanctions?",
-    "answer": "Success stories of sanctions include South Africa abandoning apartheid (1994), Libya ending its WMD program (2003), and domestic parties in Liberia complying with the peace agreement and democratic process (2005)."
-  },
-  {
-    "question": "What are some failures of sanctions?",
-    "answer": "Failures of sanctions include issues with North Korea, Russia, and Iran."
-  },
-  {
-    "question": "What is the purpose of International Law?",
-    "answer": "International Law aims to prevent war and minimize human suffering. It contributes to the peace and stability of the international system."
-  },
-  {
-    "question": "What does UN Charter Article 2(4) state?",
-    "answer": "UN Charter Article 2(4) states, 'All Members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any State.'"
-  },
-  {
-    "question": "Can the ICJ resolve the Tokdo/Takeshima Issue?",
-    "answer": "Japan and South Korea have not taken the Tokdo issue to the ICJ due to the ICJ's views on imperialism and historical background."
-  },
-  {
-    "question": "What is the Minquiers and Ecrehos Case (1953) about?",
-    "answer": "The Minquiers and Ecrehos Case (1953) was an ICJ case on conflicting territorial claims between the UK and France. The ICJ awarded the reefs to the UK based on historical claims and legal jurisdiction."
-  },
-  {
-    "question": "What is the Preah Vihear Temple Case (1962) about?",
-    "answer": "The Preah Vihear Temple Case (1962) involved a territorial dispute between Thailand and Cambodia. The ICJ awarded Cambodia since Thailand did not correct an error on the map, leading to an incorrect border drawing."
-  }
+      {
+        question: "What are the options for enforcement?",
+        answer:
+          "Options for enforcement include sanctions, retortion, and reprisal.",
+      },
+      {
+        question: "How many UNSC resolutions have been issued?",
+        answer: "There have been 2,600 UNSC resolutions.",
+      },
+      {
+        question: "How many UNSC resolutions specifically target North Korea?",
+        answer:
+          "There are 9 UNSC resolutions specifically targeting North Korea.",
+      },
+      {
+        question: "What are some countries subjected to UN sanctions?",
+        answer:
+          "Countries subjected to UN sanctions include North Korea, Iran, Mali, South Sudan, Central African Republic, Yemen, Guinea-Bissau, Libya, etc.",
+      },
+      {
+        question:
+          "What did Prof. Thomas Biersteker's 2013 study on UN sanctions conclude?",
+        answer:
+          "Prof. Thomas Biersteker's 2013 study on UN sanctions reviewed 62 sanctions over 22 years and concluded that 71% were effective or partially effective in signaling, 50% in constraining, and 37% in coercing a target.",
+      },
+      {
+        question: "What are some success stories of sanctions?",
+        answer:
+          "Success stories of sanctions include South Africa abandoning apartheid (1994), Libya ending its WMD program (2003), and domestic parties in Liberia complying with the peace agreement and democratic process (2005).",
+      },
+      {
+        question: "What are some failures of sanctions?",
+        answer:
+          "Failures of sanctions include issues with North Korea, Russia, and Iran.",
+      },
+      {
+        question: "What is the purpose of International Law?",
+        answer:
+          "International Law aims to prevent war and minimize human suffering. It contributes to the peace and stability of the international system.",
+      },
+      {
+        question: "What does UN Charter Article 2(4) state?",
+        answer:
+          "UN Charter Article 2(4) states, 'All Members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any State.'",
+      },
+      {
+        question: "Can the ICJ resolve the Tokdo/Takeshima Issue?",
+        answer:
+          "Japan and South Korea have not taken the Tokdo issue to the ICJ due to the ICJ's views on imperialism and historical background.",
+      },
+      {
+        question: "What is the Minquiers and Ecrehos Case (1953) about?",
+        answer:
+          "The Minquiers and Ecrehos Case (1953) was an ICJ case on conflicting territorial claims between the UK and France. The ICJ awarded the reefs to the UK based on historical claims and legal jurisdiction.",
+      },
+      {
+        question: "What is the Preah Vihear Temple Case (1962) about?",
+        answer:
+          "The Preah Vihear Temple Case (1962) involved a territorial dispute between Thailand and Cambodia. The ICJ awarded Cambodia since Thailand did not correct an error on the map, leading to an incorrect border drawing.",
+      },
     ],
   },
 ];
