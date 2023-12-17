@@ -830,14 +830,765 @@ export const source: SourceType[] = [
         answer:
           "The CTBT bans any nuclear weapon test explosion or any other nuclear explosion, indicating a true zero yield. The treaty is often associated with a ban on the production of fissile material for anything other than verified peaceful use, contributing to nuclear disarmament.",
       },
-       {
-    "question": "What is the Missile Technology Control Regime (MTCR)?",
-    "answer": "The Missile Technology Control Regime (MTCR) is an informal and voluntary association of countries with the shared goals of preventing the proliferation of unmanned delivery systems capable of delivering weapons of mass destruction. It also aims to coordinate national export licensing efforts to prevent the proliferation of such systems. Established in 1987 by Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States, the MTCR has since grown to include a total of thirty-four countries, all of which have equal standing within the regime."
-  },
-  {
-    "question": "What are the goals of the MTCR?",
-    "answer": "The primary goals of the MTCR are to prevent the proliferation of unmanned delivery systems capable of delivering weapons of mass destruction (WMD), such as nuclear, chemical, and biological weapons. The regime seeks to achieve these goals through informal cooperation and voluntary efforts among its member countries."
-  }
+      {
+        question: "What is the Missile Technology Control Regime (MTCR)?",
+        answer:
+          "The Missile Technology Control Regime (MTCR) is an informal and voluntary association of countries with the shared goals of preventing the proliferation of unmanned delivery systems capable of delivering weapons of mass destruction. It also aims to coordinate national export licensing efforts to prevent the proliferation of such systems. Established in 1987 by Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States, the MTCR has since grown to include a total of thirty-four countries, all of which have equal standing within the regime.",
+      },
+      {
+        question: "What are the goals of the MTCR?",
+        answer:
+          "The primary goals of the MTCR are to prevent the proliferation of unmanned delivery systems capable of delivering weapons of mass destruction (WMD), such as nuclear, chemical, and biological weapons. The regime seeks to achieve these goals through informal cooperation and voluntary efforts among its member countries.",
+      },
     ],
   },
+  {
+    topic: "International Organization",
+    link: "international-organization",
+    answerKeys: [
+      {
+        question: "What is the Delian League?",
+        answer:
+          "The Delian League was founded and led by Athens in 478 BC. Its purpose was to fend off the Persians and facilitate collective defense among its member states.",
+      },
+      {
+        question:
+          "How many international governmental organizations (IGOs) are there?",
+        answer:
+          "There are more than 3,500 international governmental organizations (IGOs).",
+      },
+      {
+        question: "How many non-governmental organizations (NGOs) are there?",
+        answer: "There are 55,000 non-governmental organizations (NGOs).",
+      },
+      {
+        question: "What are some examples of IGOs?",
+        answer:
+          "Examples of IGOs include global organizations such as the United Nations (UN) and regional organizations such as the Organization of American States (OAS).",
+      },
+      {
+        question:
+          "What were some 19th-century multinational efforts to keep peace?",
+        answer:
+          "The Concert of Europe led to multinational efforts to keep peace in the 19th century.",
+      },
+      {
+        question:
+          "What were the precursors to 20th-century international organizations?",
+        answer:
+          "The League of Nations and the United Nations were precursors to 20th-century international organizations.",
+      },
+      {
+        question:
+          "What is the centerpiece of a network of international organizations?",
+        answer:
+          "The United Nations (UN) is the centerpiece of a network of international organizations.",
+      },
+      {
+        question:
+          "What are some diverse functions of international organizations (IOs)?",
+        answer:
+          "International organizations (IOs) have diverse functions, including delivering services and aid (e.g., World Health Organization, International Monetary Fund), providing forums for negotiation (e.g., European Union), and settling disputes (e.g., World Trade Organization).",
+      },
+      {
+        question: "How do IGOs work with NGOs?",
+        answer:
+          "International governmental organizations (IGOs) work with non-governmental organizations (NGOs) such as Greenpeace, Amnesty International, and Human Rights Watch. NGOs are useful in mobilizing public support, monitoring the transparency of aid, and providing information and expertise.",
+      },
+      {
+        question: "What is World Federalism?",
+        answer:
+          "World Federalism involves the centralization of political power in the global system. Historical figures such as Dante Alighieri, Jean-Jacques Rousseau, Immanuel Kant, and Woodrow Wilson have advocated for a unified world government as a means to promote peace and justice.",
+      },
+      {
+        question:
+          "What are some key writings or figures associated with World Federalism?",
+        answer:
+          "Dante Alighieri's 'Of Monarchy' (1313), Jean-Jacques Rousseau's emphasis on institutions based on laws, Immanuel Kant's 'On Perpetual Peace' (1795) calling for a world federal state, and Woodrow Wilson's role in advocating for the League of Nations are associated with World Federalism.",
+      },
+      {
+        question: "What is the principle of Collective Security?",
+        answer:
+          '"An attack on one is an attack on all." Collective Security involves mutual defense among member states. The League of Nations, particularly Articles 10 and 16, reflected this principle (a reason why the U.S. stayed out).',
+      },
+      {
+        question: "What are the principles of International Peacekeeping?",
+        answer:
+          "International Peacekeeping involves three principles: 1) Consent of the parties; 2) Impartiality; 3) Non-use of force except in self-defense and defense of the mandate.",
+      },
+      {
+        question: "What is Third-Party Dispute Settlement?",
+        answer:
+          "Third-Party Dispute Settlement includes methods like good offices, mediation, and arbitration. These mechanisms aim to resolve conflicts between states or parties with the help of a neutral third party.",
+      },
+      {
+        question: "What is Functionalism?",
+        answer:
+          "Functionalism involves the idea of addressing specific functional needs through cooperation. In the context of international organizations, Functionalism is exemplified by the existence of 29 UN specialized agencies, including the World Health Organization (WHO), UNESCO, and the Food and Agriculture Organization (FAO).",
+      },
+      {
+        question: "What are the goals of the United Nations (UN)?",
+        answer:
+          "The UN aims to maintain peace, uphold human rights, foster friendly relations among nations, achieve international cooperation, ensure sustainable development, protect the environment, provide humanitarian aid, and address global issues.",
+      },
+      {
+        question: "What are the main bodies of the United Nations (UN)?",
+        answer:
+          "The UN has six main bodies: General Assembly for universal representation and voting on issues, Security Council for peace and security maintenance, and subsidiary bodies including Committees, Peacekeeping Operations, International Courts and Tribunals, and Advisory Bodies like the Peacebuilding Commission (PBC).",
+      },
+      {
+        question: "What are the remaining UN bodies?",
+        answer:
+          "The remaining UN bodies include the Economic and Social Council (ECOSOC) for coordination on economic, social, and environmental issues; Trusteeship Council for international supervision (suspended since 1994); International Court of Justice for settling legal disputes; and Secretariat, headed by the Secretary-General, responsible for day-to-day UN work and located in various offices worldwide.",
+      },
+      {
+        question: "What are the key issues in UN reform?",
+        answer:
+          "Key issues in UN reform include debates over world government versus abolishment, transparency and finance reform in the Secretariat, and challenges related to the structure and functioning of the UN Security Council (UNSC), particularly the P5 veto power. The current system, in use for 76 years, is considered by some as anachronistic.",
+      },
+      {
+        question:
+          "What are some issues related to the UN's Human Rights Council?",
+        answer:
+          "The Human Rights Council faces issues related to its membership structure, with 47 seats distributed based on geographical regions. Critics, including the US Ambassador to the UN Nikki Haley, have described the Council as a 'hypocritical and self-serving organization.'",
+      },
+      {
+        question: "Can you provide examples of non-UN IGOs?",
+        answer:
+          "Examples of non-UN IGOs include OPEC, ASEAN, NATO, the African Union (AU), EU, OAS, Interpol, African Development Bank, and the Asian Development Bank. These organizations may focus on trade, security, international crime, development, and other purposes.",
+      },
+      {
+        question: "What are INGOs and can you provide examples?",
+        answer:
+          "INGOs (International Non-Governmental Organizations) have non-state-based and usually non-profit memberships, often funded by private sources. There are two types of NGOs: Advocacy NGOs, which aim to influence governments with a specific goal or cause, and Operational NGOs, which provide services and implement development projects. Examples of INGOs include SOS Children's Villages, Oxfam, Catholic Relief Services, Care International, and Lutheran World Relief.",
+      },
+      {
+        question: "What are some reasons for the surge in IGOs and NGOs?",
+        answer:
+          "The surge in IGOs (International Governmental Organizations) and NGOs (Non-Governmental Organizations) can be attributed to the rise in international contact requiring routine and regulation, growing interdependence, the proliferation of transnational problems such as nuclear issues, environmental concerns, human rights, terrorism, hunger, disease, etc., the failure of the state-centric system, and an increase in transnational political and religious movements.",
+      },
+    ],
+  },
+  {
+  topic: "Future of IR",
+  link: "future-of-ir",
+  answerKeys: [
+{
+    "question": "What is the main concept presented in Samuel Huntington's 'Clash of Civilizations'?",
+    "answer": "The main concept is that future conflicts will be along cultural and civilizational lines rather than ideological or economic blocs."
+  },
+  {
+    "question": "Does Huntington agree with the end of ideological rivalry?",
+    "answer": "Yes, Huntington does not dispute the end of ideological rivalry."
+  },
+  {
+    "question": "What does Huntington believe will come to blows in future conflicts?",
+    "answer": "Huntington believes that civilizations, not ideological or economic blocs, will come to blows in future conflicts."
+  },
+  {
+    "question": "How does Huntington characterize the global conflict according to 'Clash of Civilizations'?",
+    "answer": "He characterizes it as West vs the Rest, with civilizations serving as the key actors."
+  },
+  {
+    "question": "What does Huntington suggest provides cohesion among states and creates divisions?",
+    "answer": "Civilizational identities, based on history, language, tradition, religion, and culture, provide cohesion among states and create divisions, according to Huntington."
+  },
+  {
+    "question": "What are some examples of civilizations mentioned by Huntington?",
+    "answer": "Examples include Hindu, Western, Latin Americans, African, Islamic, Confucian (Sinic), Hindu, Orthodox, Buddhist, and Japanese civilizations."
+  },
+  {
+    "question": "What does Huntington refer to as 'Fault lines'?",
+    "answer": "Fault lines are historical tensions and issues between civilizations. For instance, the conflict between Western civilization and Islamic civilization since the 7th century is considered a fault line, rooted in the Moorish conquest of Spain."
+  },
+  {
+    "question": "What are some examples of issues contributing to fault lines mentioned by Huntington?",
+    "answer": "Examples include Arab nationalism and Islamic fundamentalism, contributing to tensions between Western and Islamic civilizations."
+  },
+   {
+    "question": "What term did Presidents Mikhail Gorbachev and George H. W. Bush use to define the post-Cold War era?",
+    "answer": "They used the term 'New World Order' to define the post-Cold War era."
+  },
+  {
+    "question": "How did Bush describe the spirit of the New World Order?",
+    "answer": "He described it as a time of great power cooperation."
+  },
+  {
+    "question": "What did Bush say about the nature of the new world?",
+    "answer": "Bush mentioned that the new world is struggling to be born and is quite different from the one they've known."
+  },
+  {
+    "question": "According to Bush, is there a substitute for American leadership?",
+    "answer": "No, Bush stated that there is no substitute for American leadership."
+  },
+  {
+    "question": "What term is associated with the idea of a new global order led by the United States?",
+    "answer": "The term 'Pax-Americana' is associated with the idea of a new global order led by the United States."
+  },
+  {
+    "question": "What event in 1991 was considered the first test of the New World Order?",
+    "answer": "The Gulf War of 1991 was considered the first test of the New World Order."
+  },
+  {
+    "question": "According to Francis Fukuyama, what did the West win in the 20th century?",
+    "answer": "In the 20th century, the West won the victory of world economic and political liberalism over absolutism, bolshevism, fascism, communism, etc."
+  },
+  {
+    "question": "What are considered the Western ideas of the most appropriate form of government and livelihood?",
+    "answer": "Democracy and capitalism are considered the Western ideas of the most appropriate form of government and livelihood."
+  },
+  {
+    "question": "According to Fukuyama, what is the only viable option for modern society?",
+    "answer": "Liberal democracy and market-oriented capitalism are considered the only viable options for modern society, proven to be superior to all other forms."
+  },
+  {
+    "question": "Is economic and political liberalism considered perfect according to Fukuyama?",
+    "answer": "No, Fukuyama acknowledges that economic and political liberalism is not perfect, but he believes that the societal ills of Western society can be improved, addressing issues like racism and inequality."
+  },
+  {
+    "question": "What events, such as the Jasmine revolution in Tunisia, Egypt, Libya, and Syria, challenge Fukuyama's idea of history's end?",
+    "answer": "Events like the Jasmine revolution in Tunisia, Egypt, Libya, and Syria challenge Fukuyama's idea of history's end, suggesting a resurgence of tyranny, nationalism, terrorism, war, socialism, populism, and a relentless competitive struggle for power under global anarchy."
+  },
+{
+    "question": "What are the simultaneous trends discussed by Benjamin Barber?",
+    "answer": "Benjamin Barber discusses the simultaneous trends of Globalization and Fragmentation."
+  },
+  {
+    "question": "What does the term 'McWorld' represent in Barber's analysis?",
+    "answer": "'McWorld' represents globalization and corporate dominance in Benjamin Barber's analysis."
+  },
+  {
+    "question": "What is represented by the term 'Jihad' in Barber's analysis?",
+    "answer": "'Jihad' represents tradition and traditional values, including extreme nationalism or religious orthodoxy and theocracy, in Benjamin Barber's analysis."
+  },
+  {
+    "question": "What does globalization entail, according to Barber?",
+    "answer": "Globalization, as discussed by Barber, involves declining borders, the free flow of goods, capital, people, and ideas. It imposes a different culture, and tribal forces may feel threatened and react."
+  },
+  {
+    "question": "What is meant by 'Fragmentation' in Barber's analysis?",
+    "answer": "'Fragmentation' refers to the tribalization of nation-states based on religious, cultural, ethnic, regional, and local factors in Benjamin Barber's analysis."
+  },
+  {
+    "question": "According to Barber, is either globalization or fragmentation conducive to good democracy?",
+    "answer": "Neither globalization nor fragmentation is conducive to good democracy, as discussed by Benjamin Barber."
+  },
+  {
+    "question": "What concerns does Barber express about 'McWorld'?",
+    "answer": "Barber expresses concerns that too much consumerism associated with 'McWorld' could be detrimental to participatory politics and human rights."
+  },
+  {
+    "question": "Despite its drawbacks, what does Barber suggest is preferable between 'McWorld' and 'Jihad'?",
+    "answer": "Despite its drawbacks, Barber suggests that 'McWorld' is still preferable to 'Jihad' as it is more anti-democratic."
+  },
+  {
+    "question": "Can every event be categorized within Huntington's framework?",
+    "answer": "Not every event falls neatly into the categories proposed by Huntington."
+  },
+  {
+    "question": "Was the 9/11 attack in 2001 considered Huntingtonian?",
+    "answer": "The 9/11 attack in 2001 is often viewed within Huntington's framework, with Osama bin Laden and Al Qaeda representing Islamic forces."
+  },
+  {
+    "question": "What was the Arab Spring, and where did it start?",
+    "answer": "The Arab Spring refers to a series of anti-government protests, uprisings, and armed rebellions that spread across much of the Islamic world in the early 2010s. It started with protests in Tunisia."
+  },
+  {
+    "question": "What factors contributed to the Arab Spring?",
+    "answer": "The Arab Spring was a response to oppressive regimes and a low standard of living. It began with protests in Tunisia and was notably driven by social media."
+  },
+  {
+    "question": "Is freedom and democracy considered only for the West in the context of the Arab Spring?",
+    "answer": "The Arab Spring challenged the perception that freedom and democracy are only for the West, as it involved uprisings and protests in various Islamic countries."
+  },
+  {
+    "question": "Did the Arab Spring continue in 2019, and where did protests occur?",
+    "answer": "In 2019, there were multiple uprisings and protest movements in Algeria, Sudan, Iraq, Lebanon, and Egypt, suggesting a continuation of the Arab Spring."
+  },
+  {
+    "question": "What triggered nationwide protests in Iran in September 2022?",
+    "answer": "Nationwide protests in Iran in September 2022 were triggered by the death of a 22-year-old, Mahsa Amini, who was arrested for wearing a hijab incorrectly. The protests were against the hardline theocratic rule of the clerics in Iran."
+  },
+{
+    "question": "What were the Millennium Development Goals (MDGs)?",
+    "answer": "The Millennium Development Goals (MDGs) were 8 international development goals established following the Millennium Summit of the UN in 2000."
+  },
+  {
+    "question": "What was the deadline for the MDGs?",
+    "answer": "The deadline for the MDGs was the year 2015."
+  },
+  {
+    "question": "Name some of the key objectives of the MDGs.",
+    "answer": "The key objectives of the MDGs included eradicating extreme poverty and hunger, achieving universal primary education, promoting gender equality, reducing child mortality, improving maternal health, combating HIV/AIDS, malaria, and other diseases, ensuring environmental sustainability, and developing a global partnership for development."
+  },
+{
+    "question": "What is the 2030 Agenda for Sustainable Development?",
+    "answer": "The 2030 Agenda for Sustainable Development is a set of 17 aspirational 'Global Goals' with 169 targets."
+  },
+  {
+    "question": "What is the successor to the MDGs?",
+    "answer": "The 2030 Agenda for Sustainable Development is the successor to the Millennium Development Goals (MDGs)."
+  },
+  {
+    "question": "Who stated, 'There can be no Plan B, because there is no Planet B'?",
+    "answer": "UN Secretary-General Ban Ki-moon stated, 'There can be no Plan B, because there is no Planet B.'"
+  },
+  {
+    "question": "What are some of the focus areas of the Sustainable Development Goals?",
+    "answer": "The Sustainable Development Goals include ending poverty and hunger, improving health and education, making cities more sustainable, combating climate change, and protecting oceans and forests."
+  },
+  {
+    "question": "What is the Joint Comprehensive Plan of Action (JCPOA)?",
+    "answer": "The JCPOA, or the Iran deal, is an international agreement on the nuclear program of Iran reached in Vienna on 14 July 2015, involving Iran and the P5+1 nations."
+  },
+  {
+    "question": "What commitments did Iran make under the JCPOA?",
+    "answer": "Under the JCPOA, Iran agreed to eliminate its stockpile of medium-enriched uranium, reduce its stockpile of low-enriched uranium, and decrease the number of gas centrifuges. Iran also agreed to limit uranium enrichment for a specified period, refrain from building new heavy-water facilities, and convert certain facilities to mitigate proliferation risks."
+  },
+  {
+    "question": "How long is Iran committed to limiting uranium enrichment under the JCPOA?",
+    "answer": "Iran committed to limiting uranium enrichment up to 3.67% for 15 years under the JCPOA, with additional restrictions on the type of centrifuges used for 10 years."
+  },
+  {
+    "question": "What monitoring measures are in place to verify Iran's compliance with the JCPOA?",
+    "answer": "The International Atomic Energy Agency (IAEA) monitors and verifies Iran's compliance with the JCPOA."
+  },
+  {
+    "question": "What was the incentive provided to Iran in exchange for its commitments under the JCPOA?",
+    "answer": "In exchange for its commitments, economic sanctions were lifted from the United States, European Union, and United Nations Security Council."
+  },
+  {
+    "question": "How did Iran respond to the warnings of military options from President Barack Obama?",
+    "answer": "Iran mocked President Barack Obama's warnings of military options, calling them 'the joke of the year.' Brigadier General Massoud Jazzayeri dismissed the effectiveness of the 'US options on the table' as a joke among the Iranian nation."
+  },
+  {
+    "question": "According to Obama, what was the intended effect of the Iran nuclear agreement?",
+    "answer": "Obama stated that the agreement 'will prevent Iran from building a nuclear weapon for 15 years.'"
+  },
+  {
+    "question": "What criticism does the text mention regarding the Iran nuclear agreement and its impact on nonproliferation policy?",
+    "answer": "The agreement is criticized for breaking with decades of consistent, bipartisan nonproliferation policy. This policy, under the NPT, typically restricts states from enriching and reprocessing nuclear materials."
+  },
+  {
+    "question": "What specific limitation does the NPT impose on states regarding nuclear activities?",
+    "answer": "Under the NPT, states are generally prohibited from engaging in nuclear enrichment and reprocessing activities."
+  },
+  {
+    "question": "What concern is raised in relation to compliance with the Iran nuclear agreement?",
+    "answer": "While compliance is addressed at declared facilities, there is concern that the agreement does not adequately address activities at undeclared sites."
+  },
+  {
+    "question": "How long is Iran supposed to be prevented from building a nuclear weapon according to the agreement?",
+    "answer": "According to Obama, the agreement aimed to prevent Iran from building a nuclear weapon for 15 years."
+  },
+{
+    "question": "Why is the JCPOA not considered an official treaty?",
+    "answer": "The JCPOA is not considered an official treaty because it was not ratified by the Senate. Instead, it is classified as an executive agreement."
+  },
+  {
+    "question": "What distinguishes the JCPOA as highly unusual?",
+    "answer": "The JCPOA is highly unusual for a controversial arms control or non-proliferation agreement, especially given its potential to reshape the balance of power in the Middle East."
+  },
+  {
+    "question": "Why is the JCPOA not legally binding?",
+    "answer": "Since it is not a treaty, the JCPOA is not legally binding and stands as a mere political commitment."
+  },
+  {
+    "question": "When did President Trump withdraw from the JCPOA?",
+    "answer": "President Trump withdrew from the JCPOA in May 2018."
+  },
+  {
+    "question": "What did President Trump criticize about the deal in relation to financial transactions?",
+    "answer": "President Trump criticized the deal for providing Iran with significant financial benefits, including large sums of cash, without perceived tangible returns."
+  },
+  {
+    "question": "What is President Biden's stance on the JCPOA?",
+    "answer": "President Biden has made efforts to revive the 2015 nuclear deal, but these efforts have been thwarted as Iran makes new demands. If unsuccessful, Biden has vowed to use the military option to prevent a nuclear-armed Iran."
+  },
+  {
+    "question": "What characterizes the nature of the conflict in the 21st century?",
+    "answer": "The conflict in the 21st century is characterized by states being pitted against non-state actors, with no distinct front lines and a lack of differentiation between soldiers and civilians."
+  },
+  {
+    "question": "What are the defining features of unconventional warfare?",
+    "answer": "Unconventional warfare involves unconventional tactics and challenges traditional distinctions between soldiers and civilians."
+  },
+  {
+    "question": "How do Afghanistan and Iraq represent a new face of war in the 21st century?",
+    "answer": "Afghanistan and Iraq represent a new face of war in the 21st century due to the prevalence of asymmetric warfare, where vastly unequal military strengths are at play, with weaker non-state actors relying on unconventional tactics."
+  },
+  {
+    "question": "Define asymmetric warfare.",
+    "answer": "Asymmetric warfare refers to a situation where opposing forces have vastly unequal military strengths, with the weaker non-state actor relying on unconventional tactics to offset the power imbalance."
+  },
+  {
+    "question": "What role has sectarianism played in recent crises?",
+    "answer": "Sectarianism has played a significant role in recent crises, with conflicts often characterized by tensions between Sunni and Shia communities."
+  },
+  {
+    "question": "How are Shia often positioned in countries governed by Sunnis?",
+    "answer": "In countries governed by Sunnis, Shia tend to make up the poorest sections of society, experiencing discrimination and oppression. Sunni extremists may denounce Shia as heretics."
+  },
+  {
+    "question": "What impact did the Iranian revolution of 1979 have on sectarian dynamics?",
+    "answer": "The Iranian revolution of 1979 launched a radical Shia Islamist agenda, challenging conservative Sunni regimes, particularly in the Gulf. This led to increased sectarian tensions."
+  },
+  {
+    "question": "How do conflicts in the region often manifest sectarian divisions?",
+    "answer": "Many conflicts in the region have strong sectarian overtones, such as in Syria, where Shia militias supported by Iran battle Sunni-dominated opposition. Sunni jihadist groups, including Islamic State (IS), target Shia and their places of worship in Syria and Iraq."
+  },
+  {
+    "question": "Who are the Sunnis?",
+    "answer": "The majority of the world's Muslims, around 85-90%, are Sunnis. In the Middle East, countries like Egypt, Jordan, and Saudi Arabia have Sunni majorities."
+  },
+  {
+    "question": "How do Sunnis view themselves?",
+    "answer": "Sunnis regard themselves as the orthodox branch of Islam. The name 'Sunni' is derived from the phrase 'Ahl al-Sunnah' or 'People of the Tradition,' emphasizing practices based on what Prophet Muhammad said, did, agreed to, or condemned."
+  },
+  {
+    "question": "Who are the Shia?",
+    "answer": "Shia constitute about 10% of all Muslims, with a global population estimated at 150-200 million. Shia majorities are found in countries like Iran, Iraq, Bahrain, Azerbaijan, and Yemen, with significant communities in other nations."
+  },
+  {
+    "question": "What historical figure is central to Shia identity?",
+    "answer": "In early Islamic history, Shia was a movement known as 'Shiat Ali' or the 'Party of Ali.' Ali, the cousin and son-in-law of Prophet Muhammad, is considered by Shia Muslims as the rightful successor (imam) following the Prophet's death in 632."
+  },
+  {
+    "question": "What were the factors leading to the Iran–Iraq War (1980-1988)?",
+    "answer": "Iraq was concerned that the 1979 Iranian Revolution would incite its Shi'ite majority to rebel. Border disputes and Iraq's plan to annex the oil-rich area also contributed to the conflict."
+  },
+  {
+    "question": "What are the objectives of terrorism?",
+    "answer": "Terrorism has agitational objectives, promoting dissident groups, advertising agendas, and discrediting rivals. It can also have coercive objectives, aiming to disorient the target group, inflate the perceived power of the dissident group, and provoke overreactions from the government to adopt repressive policies. Additionally, terrorism may serve organizational objectives, such as acquiring resources, maintaining group cohesion, and ensuring allegiance."
+  },
+  {
+    "question": "What are examples of agitational objectives in terrorism?",
+    "answer": "Agitational objectives include promoting dissident groups based on anti-colonialism, separatism (e.g., ETA - Basque Homeland and Liberty), religious beliefs (Islamic Jihad), or secular ideologies (e.g., Japanese Red Army)."
+  },
+  {
+    "question": "How is coercive objective related to terrorism?",
+    "answer": "The coercive objective of terrorism involves disorienting the target group, inflating the perceived power of the dissident group, and provoking overreactions from the government. The goal is to compel the government to adopt repressive policies that may play into the hands of the terrorists."
+  },
+  {
+    "question": "What is the organizational objective of terrorism?",
+    "answer": "The organizational objective of terrorism includes acquiring resources, maintaining group cohesion, and ensuring allegiance. The high initiation costs associated with violent acts can decrease the chances of group defection."
+  },
+  {
+    "question": "How did the United Nations Secretary General define terrorism in 2004?",
+    "answer": "In November 2004, a United Nations Secretary General report described terrorism as any act 'intended to cause death or serious bodily harm to civilians or non-combatants with the purpose of intimidating a population or compelling a government or an international organization to do or abstain from doing any act.'"
+  },
+  {
+    "question": "What is the meaning of the Arabic word 'jihād'?",
+    "answer": "In Arabic, the word 'jihād' translates as a 'struggle.'"
+  },
+  {
+    "question": "How is jihad defined in Islam?",
+    "answer": "Jihad is a religious duty of Muslims, meaning 'to struggle in the way of Allah.' It is considered an important religious duty, and a person engaged in jihad is called a mujahid, with the plural being mujahideen."
+  },
+  {
+    "question": "What are the two commonly accepted meanings of jihad?",
+    "answer": "The two commonly accepted meanings of jihad are the 'greater jihad,' which is the inner struggle by a believer to fulfill religious duties, and the 'lesser jihad,' which is the physical struggle against the enemies of Islam."
+  },
+  {
+    "question": "What is the 'greater jihad' in Islam?",
+    "answer": "The 'greater jihad' is the inner struggle by a believer to fulfill his religious duties."
+  },
+  {
+    "question": "What is the 'lesser jihad' in Islam?",
+    "answer": "The 'lesser jihad' is the physical struggle against the enemies of Islam. Some proponents of the violent form of jihad translate it as 'holy war.'"
+  },
+  {
+    "question": "What does the term 'Mujahideen' mean?",
+    "answer": "Mujahideen means Muslims who struggle in the path of Allah."
+  },
+  {
+    "question": "How has the term 'Mujahideen' been associated by the West?",
+    "answer": "The term 'Mujahideen' has been most closely associated by the West with radical Islam, encompassing several militant groups and struggles."
+  },
+  {
+    "question": "When was the term 'Mujahideen' first used by the West?",
+    "answer": "The term 'Mujahideen' was first used by the West to describe the mountainous sect of hillmen in Afghanistan who fought against British control."
+  },
+  {
+    "question": "When was the Muslim Brotherhood founded?",
+    "answer": "The Muslim Brotherhood was founded in Egypt in 1928."
+  },
+  {
+    "question": "What were the initial activities of the Muslim Brotherhood?",
+    "answer": "The Muslim Brotherhood started as a religious social organization, engaging in activities such as preaching Islam, teaching the illiterate, setting up hospitals, and launching commercial enterprises."
+  },
+  {
+    "question": "When did the Muslim Brotherhood become the first democratically elected political party in Egypt?",
+    "answer": "In 2012, the Muslim Brotherhood became the first democratically elected political party in Egypt."
+  },
+  {
+    "question": "Which countries consider the Muslim Brotherhood a terrorist organization?",
+    "answer": "The governments of Bahrain, Egypt, Russia, Syria, Saudi Arabia, and the United Arab Emirates consider the Muslim Brotherhood a terrorist organization."
+  },
+  {
+    "question": "What is the stated goal of the Muslim Brotherhood?",
+    "answer": "The Muslim Brotherhood's stated goal is to instill the Qur'an and Sunnah as the 'sole reference point for ordering the life of the Muslim family, individual, community, and state.'"
+  },
+  {
+    "question": "Who became Egypt's first democratically elected President from the Muslim Brotherhood?",
+    "answer": "Mohamed Morsi became Egypt's first democratically elected President from the Muslim Brotherhood in 2012."
+  },
+  {
+    "question": "What happened on July 3, 2013, related to the Muslim Brotherhood in Egypt?",
+    "answer": "On July 3, 2013, Mohamed Morsi, the President from the Muslim Brotherhood, was overthrown by the military in response to civil unrest across the country."
+  },
+  {
+    "question": "What does the name 'Hezbollah' mean?",
+    "answer": "Hezbollah means 'Party of God.'"
+  },
+  {
+    "question": "What type of group is Hezbollah?",
+    "answer": "Hezbollah is a Shi'a Muslim militant group and political party based in Lebanon."
+  },
+  {
+    "question": "Which countries provide financial and political support to Hezbollah?",
+    "answer": "Hezbollah receives financial and political support from Iran and Syria."
+  },
+  {
+    "question": "When did Hezbollah first emerge?",
+    "answer": "Hezbollah first emerged in response to the 1982 Israeli invasion of Lebanon during the Lebanese civil war."
+  },
+  {
+    "question": "Who inspired the leaders of Hezbollah?",
+    "answer": "The leaders of Hezbollah were inspired by Ayatollah Khomeini."
+  },
+  {
+    "question": "Who trained and organized Hezbollah initially?",
+    "answer": "Hezbollah was trained and organized by a contingent of Iranian Revolutionary Guards."
+  },
+  {
+    "question": "What is one of Hezbollah's goals according to its 1985 manifesto?",
+    "answer": "One of Hezbollah's goals, according to its 1985 manifesto, is the destruction of the state of Israel."
+  },
+  {
+    "question": "What is the goal of the Palestinian Islamic Jihad?",
+    "answer": "The Palestinian Islamic Jihad was created to prevent Israel from occupying Palestinian territories and fight for the sovereignty of Palestine."
+  },
+  {
+    "question": "When was the Palestinian Islamic Jihad founded?",
+    "answer": "The Palestinian Islamic Jihad was inspired by the 1979 Iranian Revolution and founded to fight for the sovereignty of Palestine. It operated out of Egypt until 1981, after which it was exiled due to the assassination of President Anwar Sadat. The group continued its work in Gaza until it was exiled to Lebanon in 1987."
+  },
+  {
+    "question": "Where did the Palestinian Islamic Jihad move to in 1989?",
+    "answer": "In 1989, the Palestinian Islamic Jihad moved to Damascus."
+  },
+  {
+    "question": "Which terrorist group provided support to the Palestinian Islamic Jihad?",
+    "answer": "The Palestinian Islamic Jihad received support from Hezbollah."
+  },
+  {
+    "question": "Where is the Palestinian Islamic Jihad primarily active?",
+    "answer": "The Palestinian Islamic Jihad is primarily active in the West Bank and Gaza Strip."
+  },
+  { 
+    "question": "What is the goal of Hamas?",
+    "answer": "Hamas aims to liberate Palestine from Israel and establish an Islamic state in the area that includes Israel, the West Bank, and the Gaza Strip."
+  },
+  {
+    "question": "When was Hamas founded?",
+    "answer": "Hamas was founded in 1987 during the First Intifada as an offshoot of the Egyptian Muslim Brotherhood."
+  },
+  {
+    "question": "Which part of the Palestinian Territories does Hamas govern?",
+    "answer": "Since June 2007, Hamas has governed the Gaza portion of the Palestinian Territories."
+  },
+  {
+    "question": "How is Hamas recognized in the West?",
+    "answer": "Hamas is recognized in the West as a terrorist organization."
+  },
+  {
+    "question": "Who founded Al Qaeda?",
+    "answer": "Al Qaeda was founded in the late 1980s by Osama bin Laden and Muhammad Atef."
+  },
+  {
+    "question": "What does Al-Qaeda call for?",
+    "answer": "Al-Qaeda calls for the use of violence and force to bring about the end of non-Islamic governments and aims to drive the US armed forces out of Saudi Arabia and Somalia."
+  },
+  {
+    "question": "What major attacks is Al Qaeda responsible for?",
+    "answer": "Al-Qaeda is responsible for the attack on the World Trade Center and the Pentagon on September 11, 2001, as well as an attack on the US Embassy in Nairobi, Kenya."
+  },
+  {
+    "question": "When was Osama bin Laden killed?",
+    "answer": "Osama bin Laden was killed on May 2, 2011, by the US Navy."
+  },
+  {
+    "question": "What is the Islamic State of Iraq and the Levant (ISIL)?",
+    "answer": "The Islamic State of Iraq and the Levant (ISIL) is an Islamic extremist group that proclaimed itself a worldwide caliphate in 2014, with Abu Bakr al-Baghdadi named as its caliph. It claims religious, political, and military authority over all Muslims worldwide."
+  },
+  {
+    "question": "When was Abu Bakr al-Baghdadi killed?",
+    "answer": "Abu Bakr al-Baghdadi was killed on October 27, 2019, by US Delta Force in Syria's northwestern Idlib Province."
+  },
+  {
+    "question": "What did President Trump say about ISIS?",
+    "answer": "President Trump stated that ISIS was defeated. The US also initiated a troop pullout from Syria."
+  },
+  {
+    "question": "Is China considered an 'existential threat'?",
+    "answer": "China is sometimes considered an 'existential threat' due to its large population, being the world's second-largest economy, and geopolitical concerns."
+  },
+  {
+    "question": "What did President Xi Jinping call for in his 2013 meeting with President Obama?",
+    "answer": "President Xi Jinping called for a 'new kind of great power relations' in his 2013 meeting with President Obama."
+  },
+  {
+    "question": "What is China's Air Defense Identification Zone (ADIZ) in the East China Sea/Yellow Sea?",
+    "answer": "China declared the Air Defense Identification Zone (ADIZ) in the East China Sea/Yellow Sea, leading to tensions, including a naval standoff against the U.S. Navy cruiser Cowpens."
+  },
+  {
+    "question": "What are some territorial disputes involving China?",
+    "answer": "China has territorial disputes over the Senkaku/Diaoyutai islands with Japan and the Spratly islands, Paracel islands, and Scarborough shoals with Southeast Asian neighbors (Vietnam, Malaysia, Philippines, Brunei, and Taiwan)."
+  },
+  {
+    "question": "What is China's stance on THAAD?",
+    "answer": "China opposes THAAD (Terminal High Altitude Area Defense) and has expressed strong opposition to its deployment, especially in South Korea."
+  },
+  {
+    "question": "What is China's economic status in terms of GDP?",
+    "answer": "China has a GDP of over US$14 trillion, making it the world's second-largest economy."
+  },
+  {
+    "question": "What is the amount of China's foreign reserves?",
+    "answer": "China has over US$3 trillion in foreign reserves."
+  },
+  {
+    "question": "How much of the US national debt does China hold in US Treasury securities?",
+    "answer": "China holds over US$1.08 trillion of US Treasury securities, which is approximately 4% of the $25.8 trillion US national debt."
+  },
+  {
+    "question": "What is China's trade surplus?",
+    "answer": "China has a trade surplus of over US$400 billion."
+  },
+  {
+    "question": "What is the status of China's military power?",
+    "answer": "China has military capabilities including the 1st aircraft carrier Liaoning, a military budget over US$180 billion, strategic submarines, nuclear subs, battleships, and naval power projection."
+  },
+  {
+    "question": "What is China's stance on surpassing the US military capacity?",
+    "answer": "China constantly professes the need to surpass the US military capacity."
+  },
+  {
+    "question": "What is the Nine-Dashed Line concept?",
+    "answer": "The Nine-Dashed Line is a demarcation line used by both the People's Republic of China (PRC) and the Republic of China (ROC) in their territorial claims in the South China Sea."
+  },
+  {
+    "question": "Which islands are included in the Nine-Dashed Line claim?",
+    "answer": "The Nine-Dashed Line includes islands such as the Paracel Islands (occupied by China but claimed by Vietnam) and the Spratly Islands, which are disputed by the Philippines, China, Brunei, Malaysia, Taiwan, and Vietnam."
+  },
+  {
+    "question": "What are some of the potential resources in the South China Sea claimed under the Nine-Dashed Line?",
+    "answer": "The South China Sea, within the Nine-Dashed Line, is believed to have vast mineral resources, including oil."
+  },
+  {
+    "question": "When did the Nine-Dashed Line concept first appear?",
+    "answer": "The concept first appeared in 1948 as the 'Eleven-Dotted U-shape Line' when announced by the Kuomintang (KMT). The People's Republic of China (PRC) later revised it to the 'Nine-Dashed Line.' The Republic of China (ROC) adopted this line and its rationale for claims over the Spratly and Paracel Islands."
+  },
+{
+    "question": "What is the pattern of North Korean provocations related to missile launches and nuclear tests?",
+    "answer": "North Korea has a pattern of provocations that typically involve missile launches preceding nuclear tests. For example, the Taepodong-2 launch on July 5 (first test on October 9, 2006), Kwangmyongsong-2 launch on April 5 (second test on May 25, 2009), and Eunha-3 launch on December 12 (third test on February 12, 2013)."
+  },
+  {
+    "question": "What significant missile launches did North Korea conduct in 2017?",
+    "answer": "In 2017, North Korea launched the 10,000 km range Hwasong-14/KN-20 ICBM on July 4 and 28, and the larger, 13,000 km range Hwasong-15/KN-22 ICBM on November 28. Additionally, the Hwasong-15 was launched on November 3, 2022, and the larger Hwasong-17 on November 18, 2022."
+  },
+  {
+    "question": "What is the typical relationship between North Korean missile launches and nuclear tests?",
+    "answer": "Missile launches by North Korea typically precede nuclear tests."
+  },
+  {
+    "question": "How many missile launches did North Korea conduct in 2022?",
+    "answer": "In 2022 alone, North Korea conducted over 80 missile launches."
+  },
+  {
+    "question": "What is North Korea's status regarding chemical weapons?",
+    "answer": "North Korea possesses a substantial arsenal of chemical weapons, with indigenous technology to produce nerve, blister, blood, and choking agents. These include sarin, phosgene, tabun, adamsite, prussic, and mustard gas. North Korea is not a signatory to the Chemical Weapons Convention."
+  },
+  {
+    "question": "How many industrial facilities with chemical stockpiles does North Korea have?",
+    "answer": "North Korea is estimated to have at least 8 industrial facilities with a chemical stockpile, with estimates running as high as 2,500 to 5,000 tons."
+  },
+  {
+    "question": "What is North Korea's status regarding the Biological Weapons Convention?",
+    "answer": "North Korea is a signatory to the Biological Weapons Convention, but since 1980, it has accelerated biological weapons development. Anthrax, plague, and yellow fever are expected to be employed by North Korea in water and food supplies."
+  },
+  {
+    "question": "What is the size of North Korea's army?",
+    "answer": "North Korea has the 4th largest army in the world, with 1,106,000 active personnel and an additional 8.2 million in reserve."
+  },
+  {
+    "question": "What are the key components of North Korea's military, including land-based weapons?",
+    "answer": "North Korea's military includes over 1,650 land-based weapons, 3,500 tanks, 3,500 towed artillery, and 11,000 anti-aircraft weapons, among others."
+  },
+  {
+    "question": "What is the size and capability of North Korea's air force (KPAF)?",
+    "answer": "The Korean People's Army Air Force (KPAF) has 110,000 personnel and 1,700-1,800 aircraft, including 612 helicopters."
+  },
+  {
+    "question": "What is the size and capability of North Korea's navy (KPN)?",
+    "answer": "The Korean People's Navy (KPN) has 46,000 personnel and over 700 ships, landing, and infiltration crafts, including nearly 100 submarines."
+  },
+  {
+    "question": "When did the 6-party talks begin and which country hosted them?",
+    "answer": "The 6-party talks began in August 2003 and were hosted by China."
+  },
+  {
+    "question": "What principle was laid down in the 4th Round of the talks on September 19, 2005?",
+    "answer": "The 'actions for actions' principle was laid down in the 4th Round, where North Korea agreed to abandon its nuclear weapons program in exchange for diplomatic, economic, and energy concessions, including 2 million kilowatts of energy."
+  },
+  {
+    "question": "What event in October 2006 led to the UNSC Resolution 1718?",
+    "answer": "A nuclear test by North Korea in October 2006, possibly in response to frozen North Korean assets in Banco Delta Asia (BDA), led to the adoption of UNSC Resolution 1718. This resolution enforced economic sanctions, including restrictions on luxury items."
+  },
+  {
+    "question": "What was the '2.13 Agreement' and when did it result?",
+    "answer": "The '2.13 Agreement' resulted from the 3rd phase of the 5th Round of talks. It involved the shutdown and sealing of the Yongbyon facilities in exchange for heavy fuel oil (500,000 tons per year) and the lifting of financial sanctions on Banco Delta Asia assets."
+  },
+  {
+    "question": "What did North Korea agree to in the 2nd phase of the 6th Round on September 30, 2007?",
+    "answer": "In the 2nd phase of the 6th Round, North Korea agreed to 'disable' facilities in Yongbyon, including the 5 MW reactor, reprocessing plant, and fuel rod facility. In return, North Korea would be lifted from the U.S. list of states sponsoring terrorism, and the application of the Trading with the Enemy Act by the U.S. would be terminated."
+  },
+  {
+    "question": "What event in April 2009 drew criticism from the U.S. and the UNSC?",
+    "answer": "In April 2009, North Korea launched the Taepodong 2 intercontinental ballistic missile (ICBM), drawing criticism from the United States and the United Nations Security Council (UNSC)."
+  },
+  {
+    "question": "What announcement did North Korea make on April 14th, 2009, regarding the six-party talks?",
+    "answer": "On April 14th, 2009, North Korea stated that it would 'never again take part in the six-party talks.'"
+  },
+  {
+    "question": "What actions did North Korea take after its announcement in April 2009?",
+    "answer": "Following its announcement, North Korea expelled IAEA inspectors and resumed its nuclear weapons program."
+  },
+  {
+    "question": "What significant event occurred on May 25, 2009, and what was its consequence?",
+    "answer": "On May 25, 2009, North Korea conducted its second nuclear test, leading to UNSC Resolution 1874 and the indefinite termination of the six-party talks."
+  },
+  {
+    "question": "What is the current state of East Asia?",
+    "answer": "East Asia is in a state of flux."
+  },
+  {
+    "question": "What are the key considerations for Korea's future?",
+    "answer": "Korea is at a crossroad, with questions about the possibility of North Korea collapsing, the potential for a reunified Korea, and concerns about the prospect of another war."
+  },
+  {
+    "question": "What historical mistake involving Japan is mentioned?",
+    "answer": "The question is raised about whether Japan will choose to repeat the mistake it made a century ago."
+  },
+  {
+    "question": "What is the potential role of China in the region, and what possibilities are mentioned?",
+    "answer": "The question is posed about whether China can become a genuine G2 leader – responsible, open, and non-threatening, transforming into a soft power. Alternatively, it questions if China will return to the Middle Kingdom ways of Sino-centrism."
+  },
+  {
+    "question": "What role is the U.S. expected to play in the region amid changes?",
+    "answer": "There is speculation about whether the U.S. is destined to continue playing a major role in the region despite changes. Additionally, there is consideration of whether Korean unification could trigger a broader U.S. pullback and a return to traditional isolationism, noting Trump’s inclination to pull out."
+  }
+  ]
+  }
 ];
